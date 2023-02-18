@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main-container{
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 260px;
+}
+.left-container{
+    margin-left: 100px;
+}
+.left-container a{
+    color: #a962f0;
+}
+.left-container h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.left-container p,label{
+    margin-left: 30px;
+    padding-top: 10px;
+    display:inline-block;
+    font-family: 'Roboto', sans-serif;
+
+}
+.left-container #sec-link{
+    margin-left: 65px;
+}
+.left-container input{
+    margin-left: 30px;
+    border-radius: 3%;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.left-container #rem-check{
+    margin-top: 10px;
+}
+.left-container button{
+    margin-left: 30px;
+    margin-top: 15px;
+    padding: 10px 105px;
+    border: none;
+    color:white;
+    border-radius: 4%;
+    background-color: #893dff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.left-container #first-span{
+    margin-left: 35px;
+    border: 1px solid #d48882;
+    color: #d48882;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 5%;
+}
+.left-container #second-span{
+    margin-left: 35px;
+    border: 1px solid #485e91;
+    color: #485e91;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 5%;
+}
+.left-container #img1{
+    width: 13px;
+    position: absolute;
+    margin-top: 63px;
+    margin-left: 44px;
+}
+.left-container #img2{
+    width: 13px;
+    position: absolute;
+    margin-top: 63px;
+    margin-left:182px;
+}
